@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru" data-lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Опыт · Бенделиани Тимур</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="navbar">
+      <a class="brand" href="index.html">
+        <span class="brand__name">Бенделиани Тимур</span>
+        <span class="brand__role" data-i18n="role">Frontend · Bots</span>
+      </a>
+
+      <nav class="nav" aria-label="Навигация">
+        <a data-nav href="index.html" data-i18n="nav_home">Главная</a>
+        <a data-nav href="projects.html" data-i18n="nav_projects">Проекты</a>
+        <a data-nav href="stack.html" data-i18n="nav_stack">Стек</a>
+        <a data-nav href="experience.html" data-i18n="nav_experience">Опыт</a>
+        <a data-nav href="services.html" data-i18n="nav_services">Услуги</a>
+        <a data-nav href="contacts.html" data-i18n="nav_contacts">Контакты</a>
+      </nav>
+
+      <div class="nav__cta">
+        <button class="btn" data-lang-toggle type="button">EN</button>
+        <button class="btn" data-theme-toggle type="button">☀ Light</button>
+        <button class="icon-btn burger" data-burger aria-label="Menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+
+    <div class="mobile" data-mobile>
+      <a data-nav href="index.html" data-i18n="nav_home">Главная</a>
+      <a data-nav href="projects.html" data-i18n="nav_projects">Проекты</a>
+      <a data-nav href="stack.html" data-i18n="nav_stack">Стек</a>
+      <a data-nav href="experience.html" data-i18n="nav_experience">Опыт</a>
+      <a data-nav href="services.html" data-i18n="nav_services">Услуги</a>
+      <a data-nav href="contacts.html" data-i18n="nav_contacts">Контакты</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="section">
+    <div class="card pad">
+      <div class="page-head">
+        <div>
+          <div class="kicker">/Experience</div>
+          <div class="h1" data-i18n="exp_title">Опыт</div>
+          <div class="page-sub" data-i18n="exp_sub">Коротко, факты, цифры.</div>
+        </div>
+        <a class="btn" href="index.html" data-i18n="back_home">← На главную</a>
+      </div>
+
+      <div style="height:16px;"></div>
+
+      <div class="grid grid-2">
+        <div class="card pad">
+          <div class="kicker" data-i18n="exp_1_k">2022 – сейчас</div>
+          <div style="font-weight:980; margin-top:10px;" data-i18n="exp_1_t">Frontend & Bot Developer · Freelance</div>
+          <div class="lead" style="font-size:14px; margin-top:12px;" data-i18n="exp_1_d">
+            Боты, админки, интеграции. Оптимизация perf/UX. Поддержка и релизы.
+          </div>
+        </div>
+
+        <div class="card pad">
+          <div class="kicker" data-i18n="exp_2_k">2019 – 2022</div>
+          <div style="font-weight:980; margin-top:10px;" data-i18n="exp_2_t">Frontend Developer · Product Team</div>
+          <div class="lead" style="font-size:14px; margin-top:12px;" data-i18n="exp_2_d">
+            Компоненты UI, типизация, улучшение качества релизов, ускорение внедрения фич.
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div>© <span data-year></span> Bendeliani Timur</div>
+        <div><a href="services.html" data-i18n="nav_services">Услуги</a></div>
+      </footer>
+    </div>
+  </section>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>

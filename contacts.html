@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="ru" data-lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Контакты · Бенделиани Тимур</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="navbar">
+      <a class="brand" href="index.html">
+        <span class="brand__name">Бенделиани Тимур</span>
+        <span class="brand__role" data-i18n="role">Frontend · Bots</span>
+      </a>
+
+      <nav class="nav" aria-label="Навигация">
+        <a data-nav href="index.html" data-i18n="nav_home">Главная</a>
+        <a data-nav href="projects.html" data-i18n="nav_projects">Проекты</a>
+        <a data-nav href="stack.html" data-i18n="nav_stack">Стек</a>
+        <a data-nav href="experience.html" data-i18n="nav_experience">Опыт</a>
+        <a data-nav href="services.html" data-i18n="nav_services">Услуги</a>
+        <a data-nav href="contacts.html" data-i18n="nav_contacts">Контакты</a>
+      </nav>
+
+      <div class="nav__cta">
+        <button class="btn" data-lang-toggle type="button">EN</button>
+        <button class="btn" data-theme-toggle type="button">☀ Light</button>
+        <button class="icon-btn burger" data-burger aria-label="Menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+
+    <div class="mobile" data-mobile>
+      <a data-nav href="index.html" data-i18n="nav_home">Главная</a>
+      <a data-nav href="projects.html" data-i18n="nav_projects">Проекты</a>
+      <a data-nav href="stack.html" data-i18n="nav_stack">Стек</a>
+      <a data-nav href="experience.html" data-i18n="nav_experience">Опыт</a>
+      <a data-nav href="services.html" data-i18n="nav_services">Услуги</a>
+      <a data-nav href="contacts.html" data-i18n="nav_contacts">Контакты</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="section">
+    <div class="card pad">
+      <div class="page-head">
+        <div>
+          <div class="kicker">/Contacts</div>
+          <div class="h1" style="margin-bottom:6px;" data-i18n="contacts_title">Связаться со мной</div>
+          <div class="page-sub" data-i18n="contacts_sub">Здесь только контактная информация.</div>
+        </div>
+        <a class="btn" href="index.html" data-i18n="back_home">← На главную</a>
+      </div>
+
+      <div style="height:16px;"></div>
+
+      <div class="grid grid-2">
+        <div class="card pad">
+          <div class="kicker" data-i18n="fast_channels">Быстрые каналы</div>
+          <div style="display:flex; gap:12px; flex-wrap:wrap; margin-top:14px;">
+            <a class="btn btn--accent" href="https://web.telegram.org/k/#@KORACON" target="_blank" rel="noreferrer">Telegram</a>
+            <a class="btn" href="mailto:bendelianitimur916@gmail.com">bendelianitimur916@gmail.com</a>
+            <a class="btn" href="https://github.com/KORACON" target="_blank" rel="noreferrer">GitHub</a>
+          </div>
+        </div>
+
+        <div class="card pad">
+          <div class="kicker" data-i18n="brief_title">Короткий бриф</div>
+          <div style="margin-top:12px; color:var(--muted); font-size:15px; line-height:1.7; white-space:pre-line;" data-i18n="brief_list">
+            1) Что нужно сделать?
+            2) Сроки/приоритеты?
+            3) Есть ли дизайн/референсы?
+            4) Нужны ли интеграции (CRM/оплата/таблицы)?
+          </div>
+
+          <div style="margin-top:14px; color:var(--muted2); font-size:12px; font-family:var(--mono);" data-i18n="tz">
+            Timezone: UTC+3 · Формат: remote
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div>© <span data-year></span> Bendeliani Timur</div>
+        <div><a href="projects.html" data-i18n="nav_projects">Проекты</a></div>
+      </footer>
+    </div>
+  </section>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>

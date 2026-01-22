@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="ru" data-lang="ru">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Проекты · Бенделиани Тимур</title>
+  <link rel="stylesheet" href="css/styles.css"/>
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="navbar">
+      <a class="brand" href="index.html">
+        <span class="brand__name">Бенделиани Тимур</span>
+        <span class="brand__role" data-i18n="role">Frontend · Bots</span>
+      </a>
+
+      <nav class="nav" aria-label="Навигация">
+        <a data-nav href="index.html" data-i18n="nav_home">Главная</a>
+        <a data-nav href="projects.html" data-i18n="nav_projects">Проекты</a>
+        <a data-nav href="stack.html" data-i18n="nav_stack">Стек</a>
+        <a data-nav href="experience.html" data-i18n="nav_experience">Опыт</a>
+        <a data-nav href="services.html" data-i18n="nav_services">Услуги</a>
+        <a data-nav href="contacts.html" data-i18n="nav_contacts">Контакты</a>
+      </nav>
+
+      <div class="nav__cta">
+        <button class="btn" data-lang-toggle type="button">EN</button>
+        <button class="btn" data-theme-toggle type="button">☀ Light</button>
+        <button class="icon-btn burger" data-burger aria-label="Menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+
+    <div class="mobile" data-mobile>
+      <a data-nav href="index.html" data-i18n="nav_home">Главная</a>
+      <a data-nav href="projects.html" data-i18n="nav_projects">Проекты</a>
+      <a data-nav href="stack.html" data-i18n="nav_stack">Стек</a>
+      <a data-nav href="experience.html" data-i18n="nav_experience">Опыт</a>
+      <a data-nav href="services.html" data-i18n="nav_services">Услуги</a>
+      <a data-nav href="contacts.html" data-i18n="nav_contacts">Контакты</a>
+    </div>
+  </div>
+</header>
+
+<main class="container">
+  <section class="section">
+    <div class="card pad">
+      <div class="page-head">
+        <div>
+          <div class="kicker">/Projects</div>
+          <div class="h1" data-i18n="projects_title">Проекты</div>
+          <div class="page-sub" data-i18n="projects_sub">Карточки кейсов: Frontend / Bots / Integrations.</div>
+        </div>
+        <a class="btn" href="index.html" data-i18n="back_home">← На главную</a>
+      </div>
+
+      <div style="height:16px;"></div>
+
+      <div class="grid grid-3">
+        <div class="card pad">
+          <div class="kicker" data-i18n="projects_c1_k">Bots</div>
+          <div style="font-weight:980; margin-top:10px;" data-i18n="projects_c1_t">Бот заявок + админка</div>
+          <div class="lead" style="font-size:14px; margin-top:10px;" data-i18n="projects_c1_d">
+            Лиды, роли, CRM, уведомления, логирование.
+          </div>
+          <div style="display:flex; gap:12px; flex-wrap:wrap;">
+            <a class="btn" href="https://github.com/KORACON" target="_blank" rel="noreferrer" data-i18n="projects_c1_a1">GitHub</a>
+            <a class="btn btn--accent" href="contacts.html" data-i18n="projects_c1_a2">Демо</a>
+          </div>
+        </div>
+
+        <div class="card pad">
+          <div class="kicker" data-i18n="projects_c2_k">Frontend</div>
+          <div style="font-weight:980; margin-top:10px;" data-i18n="projects_c2_t">Панель оператора</div>
+          <div class="lead" style="font-size:14px; margin-top:10px;" data-i18n="projects_c2_d">
+            Таблицы, фильтры, RBAC, история изменений.
+          </div>
+          <div style="display:flex; gap:12px; flex-wrap:wrap;">
+            <a class="btn" href="https://github.com/KORACON" target="_blank" rel="noreferrer" data-i18n="projects_c2_a1">GitHub</a>
+            <a class="btn btn--accent" href="contacts.html" data-i18n="projects_c2_a2">Кейс</a>
+          </div>
+        </div>
+
+        <div class="card pad">
+          <div class="kicker" data-i18n="projects_c3_k">Integrations</div>
+          <div style="font-weight:980; margin-top:10px;" data-i18n="projects_c3_t">CRM + Webhooks</div>
+          <div class="lead" style="font-size:14px; margin-top:10px;" data-i18n="projects_c3_d">
+            События, ретраи, rate-limit, мониторинг ошибок.
+          </div>
+          <div style="display:flex; gap:12px; flex-wrap:wrap;">
+            <a class="btn" href="contacts.html" data-i18n="projects_c3_a1">Описание</a>
+            <a class="btn btn--accent" href="contacts.html" data-i18n="projects_c3_a2">Связаться</a>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <div>© <span data-year></span> Bendeliani Timur</div>
+        <div><a href="contacts.html" data-i18n="nav_contacts">Контакты</a></div>
+      </footer>
+    </div>
+  </section>
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>
